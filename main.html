@@ -1,2 +1,56 @@
 <!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="main.html" id="bottle" onclick="document.location='https://comp01-sudo.github.io/';return false;" >
+                <img src="Central.png" alt="Return to main page" style="width:32px;height:16px;"> 
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="dropSUR()">Survival Simulator
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-content" id="About">About us</div>
+                        <a href="/About/Bio.html">Bios</a>
+                    </div>
+                </div> 
+        
+            <button class="button" id="DarkMode" onclick="Dark()">Dark Mode</button>
+        </div>
+
+        <script>
+            function dropSUR() {
+                document.getElementById("SURDropdown").classList.toggle("show");
+            }
+        
+            function dropOS() {
+                document.getElementById("OSDropdown").classList.toggle("show");
+            }
+        
+            function dropADR() {
+                document.getElementById("ADRDropdown").classList.toggle("show");
+            }
+        
+            window.onclick = function(e) {
+                if (!e.target.matches('.dropbtn')) {
+                    var myDropdown = document.getElementById("SURDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                        myDropdown.classList.remove('show');
+                    }
+                }
+            }
+        
+            function Dark() {
+                document.getElementById("DarkMode").textContent = 'Light';
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    
+        <h1>Hello world</h1>
+    </body>
 </html>
