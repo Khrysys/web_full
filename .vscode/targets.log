@@ -1,0 +1,220 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: unrecognized option `--no-builtin-variables'
+Usage: make.exe [options] [target] ...
+Options:
+  -b, -m                      Ignored for compatibility.
+  -C DIRECTORY, --directory=DIRECTORY
+                              Change to DIRECTORY before doing anything.
+  -d, --debug                 Print lots of debugging information.
+  -e, --environment-overrides
+                              Environment variables override makefiles.
+  -f FILE, --file=FILE, --makefile=FILE
+                              Read FILE as a makefile.
+  -h, --help                  Print this message and exit.
+  -i, --ignore-errors         Ignore errors from commands.
+  -I DIRECTORY, --include-dir=DIRECTORY
+                              Search DIRECTORY for included makefiles.
+  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no arg.
+  -k, --keep-going            Keep going when some targets can't be made.
+  -l [N], --load-average[=N], --max-load[=N]
+                              Don't start multiple jobs unless load is below N.
+  -n, --just-print, --dry-run, --recon
+                              Don't actually run any commands; just print them.
+  -o FILE, --old-file=FILE, --assume-old=FILE
+                              Consider FILE to be very old and don't remake it.
+  -p, --print-data-base       Print make's internal database.
+  -q, --question              Run no commands; exit status says if up to date.
+  -r, --no-builtin-rules      Disable the built-in implicit rules.
+  -s, --silent, --quiet       Don't echo commands.
+  -S, --no-keep-going, --stop
+                              Turns off -k.
+  -t, --touch                 Touch targets instead of remaking them.
+  -v, --version               Print the version number of make and exit.
+  -w, --print-directory       Print the current directory.
+  --no-print-directory        Turn off -w, even if it was turned on implicitly.
+  -W FILE, --what-if=FILE, --new-file=FILE, --assume-new=FILE
+                              Consider FILE to be infinitely new.
+  --warn-undefined-variables  Warn when an undefined variable is referenced.
+  --unix                      Run in UNIX mode (use sh.exe subshell).
+  --win32                     Run in Win32 mode (use Win32 subshell).
+ 
+
+# Make data base, printed on Fri Jan 07 11:47:28 2022
+
+# Variables
+
+# environment
+LC_ALL = C
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROMPT = $P$G
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+LOGONSERVER = \\DESKTOP-8T8EL5M
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+USERNAME = Khrysaoros
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
+# environment
+OS = Windows_NT
+# environment
+HOMEPATH = \Users\Khrysaoros
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+!C: = c:\Users\Khrysaoros\Documents\GitHub\web_full
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+VSCODE_PID = 12460
+# environment
+NVCUDASAMPLES11_4_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.4
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-60c940b3-5f4d-4914-87fc-6626ab7cb314-sock
+# environment
+TMP = C:\Users\KHRYSA~1\AppData\Local\Temp
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-8T8EL5M
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+OV_NI_PLUGIN_DIR = C:\Program Files\National Instruments\Shared\OpenVINO\
+# environment
+LOCALAPPDATA = C:\Users\Khrysaoros\AppData\Local
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_LOG_STACK = false
+# environment
+HOMEDRIVE = C:
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Khrysaoros\AppData\Roaming\Code\CachedData\ccbaa2d27e38e5afa3e5c21c1c7bef4657064247
+# environment
+USERDOMAIN = DESKTOP-8T8EL5M
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+TERM = cygwin
+# environment
+SESSIONNAME = Console
+# environment
+ONEDRIVE = C:\Users\Khrysaoros\OneDrive
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12460_HMXLHRYEHXKVIXFE
+# environment
+COMPUTERNAME = DESKTOP-8T8EL5M
+# environment
+LANG = C
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+TEMP = C:\Users\KHRYSA~1\AppData\Local\Temp
+# environment
+NIEXTCCOMPILERSUPP = C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+USERPROFILE = C:\Users\Khrysaoros
+# environment
+VSCODE_CWD = C:\Users\Khrysaoros\AppData\Local\Programs\Microsoft VS Code
+# environment
+APPDATA = C:\Users\Khrysaoros\AppData\Roaming
+# environment
+PROCESSOR_REVISION = 3d04
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# environment
+PUBLIC = C:\Users\Public
+# environment
+GIT_LFS_PATH = C:\Program Files\Git LFS
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c78da19dc47610f055156639dbf0eb47-1.62.3-main-sock
+# environment
+PATH = /Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/bin:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/libnvvp:/Program Files/Eclipse Foundation/jdk-11.0.12.7-hotspot/bin:/Program Files/National Instruments/Shared/OpenVINO/:/WINDOWS/system32:/WINDOWS:/WINDOWS/System32/Wbem:/WINDOWS/System32/WindowsPowerShell/v1.0/:/WINDOWS/System32/OpenSSH/:/Program Files/dotnet/:/Program Files/NVIDIA Corporation/Nsight Compute 2021.2.1/:/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygnus/cygwin-b20/H-i586-cygwin32/bin:/Program Files/Git LFS:/Program Files/Git/cmd:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/Users/Khrysaoros/AppData/Local/Microsoft/WindowsApps:/Users/Khrysaoros/AppData/Local/Programs/Microsoft VS Code/bin:/Users/Khrysaoros/.dotnet/tools:/Users/Khrysaoros/AppData/Local/GitHubDesktop/bin:/Users/Khrysaoros/AppData/Local/Programs/Julia-1.6.2/bin
+# environment
+CUDA_PATH_V11_4 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+# environment
+JAVA_HOME = C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.4
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# 71 variables in 523 hash buckets.
+# average of 0.1 variables per bucket, max 2 in one bucket.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# 1 files in 1007 hash buckets.
+# average 0.1 files per bucket, max 1 files in one bucket.
+
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# Finished Make data base on Fri Jan 07 11:47:28 2022
+
+ 
