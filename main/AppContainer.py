@@ -9,4 +9,3 @@ socketio = SocketIO(app)
 sqldb = SQLAlchemy
 
 app.config.from_object(DevelopmentConfig)
-

@@ -1,4 +1,4 @@
-from AppContainer import getDB
+from server.AppContainer import sqldb
 
-class Player():
+class Player(sqldb.Model):
     pass
