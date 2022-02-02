@@ -1,5 +1,5 @@
 from server.AppContainer import sqldb
 
 
-class Player(sqldb.Model):
-    pass
+class Player(DB.createModel):
+    id = DB.createColumn(DB.createInteger(), pkey=True, nullable=False)
