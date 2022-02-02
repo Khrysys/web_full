@@ -1,3 +1,4 @@
 from AppContainer import getDB
 
-class Player
+class Player():
+    pass

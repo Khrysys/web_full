@@ -1,16 +1,12 @@
+from config import DevelopmentConfig, ProductionConfig
+
 from flask import Flask
 from flask_socketio import SocketIO
 from flask_sqlalchemy import SQLAlchemy
 
-__app__ = Flask(__name__)
-__socketio__ = SocketIO(__app__)
-__sqldb__ = SQLAlchemy
+app = Flask(__name__)
+socketio = SocketIO(app)
+sqldb = SQLAlchemy
 
-def getApp():
-    return __app__
+app.config.from_object(DevelopmentConfig)
 
-def getSocketIO():
-    return __socketio__
-
-def getDB():
-    return __sqldb__

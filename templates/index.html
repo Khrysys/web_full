@@ -1,0 +1,21 @@
+<html>
+	<head>
+		{% if not session['darkmode'] %}
+		<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
+		{% endif %}
+	</head>
+	<body>
+		{% include "shared/__navbar__.html" %}
+
+		<header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Khrysaoros</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">An Indie developer creating AAA style games</h2>
+          <a class="btn btn-primary js-scroll-trigger" href="/about">About</a>
+        </div>
+      </div>
+    </header>
+	</body>
+	{% include "shared/__footer__.html" %}
+</html>
