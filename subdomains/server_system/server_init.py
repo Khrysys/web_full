@@ -12,6 +12,7 @@ def init(subdomain='server/', templates='server_system/', static='server_system/
     SUBDOMAIN=subdomain
     TEMPLATES=templates
     STATIC=static
+    return True
 
 @app.route('/', subdomain=SUBDOMAIN)
 def server_index():
