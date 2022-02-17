@@ -7,7 +7,7 @@ TEMPLATES=""
 STATIC=""
 
 
-def init(subdomain='server/', templates='server_system/', static='server_system/'):
+def init(subdomain='server', templates='templates/server_system/', static='static/server_system/'):
     global SUBDOMAIN, TEMPLATES, STATIC
     SUBDOMAIN=subdomain
     TEMPLATES=templates
